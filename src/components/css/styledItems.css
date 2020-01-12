@@ -1,0 +1,41 @@
+#containerOfProducts{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+}
+#buybtn{
+	display: inline-block;
+	border-radius: 3px;
+	padding: 0.5rem 0;
+	margin: 0.5rem 1rem;
+	width: 11rem;
+	background: transparent;
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+#buybtn:hover{
+    background-color: yellow;
+	opacity: .8;
+	transition: .7s;
+	cursor: pointer;
+}
+#nameAndPrice{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-size: 22px; 
+}
+#name{
+	margin: 10px
+}
+#price{
+	padding: 10px;
+}
+#productsImg{
+	width: 200px;
+	height: 200px;
+	
+}

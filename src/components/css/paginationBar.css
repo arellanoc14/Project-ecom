@@ -1,0 +1,70 @@
+.sideBar{
+	cursor: pointer;
+	margin: 10px;
+}
+#catorgy:hover{	
+	color:red;
+}
+.activeCatorgy{
+	color: red;
+}
+#page{
+	margin: 10px;
+}
+#page:hover{
+	color: red;
+}
+.activePage{
+	color: red;
+}
+.default{
+	color: red;
+}
+.pageNumber{
+	display: flex;
+	justify-content: center;
+	flex-direction: row-reverse;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+#page{
+	margin: 30px;
+}
+#catorgy{
+	font-size: 30px;
+	margin: 10px;
+}
+.sideBarContainer{
+	text-align: center;
+
+}
+@media screen and (max-width: 700px){
+.sideBarContainer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	margin: auto;
+	padding: auto;
+
+}
+.sideBarContainer .sideBar{
+	padding: 10px;
+	margin: 50px;
+
+}
+.sideBarContainer .sideBar .catorgies{	
+	padding: 0px;
+	margin: 10px;
+
+}
+.pageNumber{
+	position: absolute;
+	margin-top: 5px;
+}
+#catorgy{
+	font-size: 20px;
+	margin: 10px;
+}
+}

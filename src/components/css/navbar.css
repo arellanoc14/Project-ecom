@@ -1,0 +1,20 @@
+.navbar{
+	width: 100%;
+	top:0;
+}
+.navbar .tabsList{
+	display: flex;
+	justify-content: left;
+	background-color: blue;
+	background-image: linear-gradient(blue, black);	
+	margin: auto;
+	padding: auto;
+
+}
+.li{
+	margin: 10px
+}
+.tabs{
+	text-decoration: none;
+	color: white;
+}
