@@ -11,7 +11,7 @@
     "react-icons": "^2.2.7",
     "react-pose": "^4.0.8",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "2.1.8",
+    "react-scripts": "5.0.1",
     "react-scrollmagic": "^2.1.0",
     "react-slideshow-image": "^1.1.5",
     "styled-components": "^4.3.1"
